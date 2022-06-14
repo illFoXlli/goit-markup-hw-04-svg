@@ -66,7 +66,7 @@ body {
 .logo .logo-studio-white {
  color: var(--logo-white-color);
 }
- /* --------------НАВИГАЦИЯ--------------------------- */
+/* --------------НАВИГАЦИЯ--------------------------- */
 .site-nav .link {
  color: var(--primary-text-color);
 
@@ -104,8 +104,8 @@ body {
  fill: var(--titel-text-color);
 }
 .link-contact {
-  display: inline-flex;
-  align-items: center;
+ display: inline-flex;
+ align-items: center;
 }
 .auth-nav .link-contact:hover .item-envelope-svg {
  fill: var(--second-text-color);
@@ -192,7 +192,7 @@ body {
  display: flex;
 }
 .footer-address-box {
-  margin-top: 60px;
+ margin-top: 60px;
 }
 .footer .list {
  padding-left: 0;
@@ -202,41 +202,41 @@ body {
  margin-bottom: 20px;
 }
 .footer-social-text {
-margin: 0;
-padding: 0;
+ margin: 0;
+ padding: 0;
 
-font-weight: 700;
-line-height: 1.14;
-text-transform: uppercase;
+ font-weight: 700;
+ line-height: 1.14;
+ text-transform: uppercase;
 
-color: #FFFFFF;
+ color: #ffffff;
 }
-.footer-social-box{
-margin-left: 70px;
-margin-top: 72px;
+.footer-social-box {
+ margin-left: 70px;
+ margin-top: 72px;
 }
 .footer-link-box {
-  display: flex;
-  margin-top: 20px;
+ display: flex;
+ margin-top: 20px;
 }
 /* соц сети в футоре */
 .footer-social-link {
-  display: block;
-   width: 44px;
-   height: 44px;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
+ display: block;
+ width: 44px;
+ height: 44px;
+ background: rgba(255, 255, 255, 0.1);
+ border-radius: 50%;
 }
 .footer-social-link + .footer-social-link {
-  margin-left: 10px;
+ margin-left: 10px;
 }
 .footer-social {
-  fill: #ffffff;
+ fill: #ffffff;
  margin-left: 12px;
  margin-top: 12px;
 }
 .footer-social-link:hover {
-  background: #2196F3;
+ background: var(--second-text-color);
 }
 
 /*--------------------------HERO------------------------*/
@@ -288,8 +288,19 @@ margin-top: 72px;
 
  margin: 0;
 }
-/* оформление с применением flex */
+.advantage-svg-box {
+ width: 270px;
+ height: 120px;
+ margin-bottom: 30px;
 
+ border-radius: 4px;
+
+ background-color: #f5f4fa;
+}
+.advantage-svg {
+ margin: 25px 100px;
+}
+/* оформление с применением flex */
 
 .display-none-advantage,
 .content-heading {
@@ -370,8 +381,34 @@ margin-top: 72px;
  margin: 0;
  margin-bottom: 30px;
 }
+.card-link-boxs {
+display: flex;
+justify-content: center;
+padding: 0;
+margin-bottom: 30px;
+}
+.card-link-box {
+ width: 44px;
+ height: 44px;
 
+ border-radius: 50%;
 
+}
+.card-link-box:not(:last-child) {
+  margin-right: 10px;
+}
+.card-link-svg {
+ margin: 12px;
+
+ fill: #afb1b8;
+}
+
+.card-link-box:hover  {
+  background-color: #2196F3;
+}
+.card-link-box:hover .card-link-svg {
+  fill: #ffffff;
+}
 /* -------------------- PORTFOLIO-----------------------*/
 /* Кнопки фильтра */
 .button {
