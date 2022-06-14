@@ -45,12 +45,25 @@
     <ul class="auth-nav list">
      <!--Контакты по сайту-->
      <li class="item">
-      <a href="mailto:info@devstudio.com" class="link-contact"
-       >info@devstudio.com</a
+      <a href="mailto:info@devstudio.com" class="link-contact">
+       <svg width="16" height="12" class="item-envelope">
+        <use
+         class="item-envelope-svg"
+         href="./images/symbol-defs.svg#icon-mail_envelope"
+        ></use>
+       </svg>
+       info@devstudio.com</a
       >
      </li>
      <li class="item">
-      <a href="tel:+380961111111" class="link-contact">+38 096 111 11 11</a>
+      <a href="tel:+380961111111" class="link-contact">
+       <svg width="10" height="16" class="item-contact">
+        <use
+         class="item-contact-svg"
+         href="./images/symbol-defs.svg#icon-phone_smartphone"
+        ></use></svg
+       >+38 096 111 11 11</a
+      >
      </li>
     </ul>
    </div>
@@ -190,30 +203,53 @@
   <footer class="footer">
    <!-- Контакты -->
    <div class="container">
-    <a href="./index.html" class="logo logo-footer"
-     >Web<span class="logo-studio-white">Studio</span></a
-    >
-    <address class="address-footer">
-     <ul class="list">
-      <li class="space-address">
-       <a
-        class="address list"
-        href="https://www.google.com.ua/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265841,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858?hl=ru"
-        target="_blank"
-        rel="noopener noreferrer"
-        >г. Киев, пр-т Леси Украинки, 26</a
-       >
-      </li>
-      <li class="space-address">
-       <a class="link-contact" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-       >
-      </li>
-      <li class="space-address">
-       <a class="link-contact" href="tel:+380961111111">+38 096 111 11 11</a>
-      </li>
-     </ul>
-    </address>
+    <div class="footer-address-box">
+     <a href="./index.html" class="logo logo-footer"
+      >Web<span class="logo-studio-white">Studio</span></a
+     >
+     <address class="address-footer">
+      <ul class="list">
+       <li class="space-address">
+        <a
+         class="address list"
+         href="https://www.google.com.ua/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265841,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858?hl=ru"
+         target="_blank"
+         rel="noopener noreferrer"
+         >г. Киев, пр-т Леси Украинки, 26</a
+        >
+       </li>
+       <li class="space-address">
+        <a class="link-contact" href="mailto:info@devstudio.com"
+         >info@devstudio.com</a
+        >
+       </li>
+       <li class="space-address">
+        <a class="link-contact" href="tel:+380961111111">+38 096 111 11 11</a>
+       </li>
+      </ul>
+     </address>
+    </div>
+    <div class="footer-social-box">
+     <p class="footer-social-text">присоединяйтесь</p>
+     <div class="footer-link-box">
+      <a class="footer-social-link" href="https://www.instagram.com/"
+       ><svg width="20" height="20" class="footer-social">
+        <use href="./images/symbol-defs.svg#icon-instagram_icon"></use></svg
+      ></a>
+      <a class="footer-social-link" href="https://twitter.com/"
+       ><svg width="20" height="20" class="footer-social">
+        <use href="./images/symbol-defs.svg#icon-twitter_icon"></use></svg
+      ></a>
+        <a class="footer-social-link" href="https://www.facebook.com/"
+       ><svg width="20" height="20" class="footer-social">
+        <use href="./images/symbol-defs.svg#icon-facebook_icon"></use></svg
+      ></a>
+        <a class="footer-social-link" href="https://www.linkedin.com/"
+       ><svg width="20" height="20" class="footer-social">
+        <use href="./images/symbol-defs.svg#icon-linkedin_icon"></use></svg
+      ></a>
+     </div>
+    </div>
    </div>
   </footer>
  </body>
