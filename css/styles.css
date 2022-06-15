@@ -243,8 +243,16 @@ body {
 
 .hero {
  text-align: center;
- background-color: #2f303a;
+ 
+  background-color: var(--second-bg-color);
+  background: rgba(47, 48, 58, 0.4);
+  background-image: url(../images/banner_overla_hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
  width: 1600px;
+ height: 600px;
  margin-left: auto;
  margin-right: auto;
  padding: 200px 0;
