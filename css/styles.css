@@ -356,7 +356,8 @@ body {
  text-align: center;
 }
 /* -----------------род занятий и команда ------------------------*/
-.occupation-titel {
+.occupation-titel,
+.examples-work-title {
  font-weight: 700;
  font-size: 36px;
  line-height: 1.17;
@@ -408,6 +409,37 @@ body {
 .card-link-box:hover .card-link-svg {
  fill: #ffffff;
 }
+/* примеры работ */
+.examples-boxs {
+ display: flex;
+ justify-content: center;
+
+}
+.examples-box {
+ width: 170px;
+ height: 92px;
+
+ border-radius: 4px;
+ border: 1px solid #afb1b8;
+
+}
+.examples-box + .examples-box {
+  margin-left: 30px;
+}
+.examples-svg {
+ fill: #afb1b8;
+
+ margin-top: 15px;
+ margin-left: 31px;
+}
+
+.examples-box:hover {
+ border: 1px solid #2196f3;
+}
+.examples-box:hover .examples-svg {
+ fill: #2196f3;
+}
+
 /* -------------------- PORTFOLIO-----------------------*/
 /* Кнопки фильтра */
 .button {
@@ -493,9 +525,11 @@ body {
 }
 .contaent-cards-img {
  display: block;
+ height: 100%;
+ width: 100%;
 
- width: 370px;
- height: 294px;
+ object-fit: contain;
+
  background: #eeeeee;
 
  margin-bottom: 20px;
@@ -510,7 +544,7 @@ body {
 }
 .contaent-cards-link:hover {
  box-sizing: border-box;
- outline: 1px solid #eeeeee;
+ border: 1px solid #eeeeee;
  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
   1px 4px 6px rgba(0, 0, 0, 0.16);
 }
