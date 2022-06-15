@@ -382,20 +382,19 @@ body {
  margin-bottom: 30px;
 }
 .card-link-boxs {
-display: flex;
-justify-content: center;
-padding: 0;
-margin-bottom: 30px;
+ display: flex;
+ justify-content: center;
+ padding: 0;
+ margin-bottom: 30px;
 }
 .card-link-box {
  width: 44px;
  height: 44px;
 
  border-radius: 50%;
-
 }
 .card-link-box:not(:last-child) {
-  margin-right: 10px;
+ margin-right: 10px;
 }
 .card-link-svg {
  margin: 12px;
@@ -403,11 +402,11 @@ margin-bottom: 30px;
  fill: #afb1b8;
 }
 
-.card-link-box:hover  {
-  background-color: #2196F3;
+.card-link-box:hover {
+ background-color: #2196f3;
 }
 .card-link-box:hover .card-link-svg {
-  fill: #ffffff;
+ fill: #ffffff;
 }
 /* -------------------- PORTFOLIO-----------------------*/
 /* Кнопки фильтра */
@@ -448,13 +447,13 @@ margin-bottom: 30px;
  margin: 0 24px 4px 24px;
 }
 
-.contaent-contents {
+.contaent-text {
  color: var(--titel-text-color);
 
  font-size: 16px;
  line-height: 1.88;
 
- margin: 0 24px 20px 24px;
+ margin: 0 24px 0 24px;
 }
 /* фильр в портфолео */
 .section {
@@ -491,4 +490,27 @@ margin-bottom: 30px;
 .list.list-cards:not(:nth-last-child(-n + 3)) {
  /* outline: 2px solid gold; */
  margin-bottom: 30px;
+}
+.contaent-cards-img {
+ display: block;
+
+ width: 370px;
+ height: 294px;
+ background: #eeeeee;
+
+ margin-bottom: 20px;
+}
+.contaent-cards-link {
+ display: block;
+ text-decoration: inherit;
+ color: inherit;
+ /* box-sizing: border-box; */
+
+ padding-bottom: 20px;
+}
+.contaent-cards-link:hover {
+ box-sizing: border-box;
+ outline: 1px solid #eeeeee;
+ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+  1px 4px 6px rgba(0, 0, 0, 0.16);
 }
